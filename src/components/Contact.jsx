@@ -1,6 +1,5 @@
 import React from "react";
 import Section from "./common/Section";
-import contact from "../assests/mobile.png";
 
 import { FaLinkedin, FaMailBulk } from "react-icons/fa";
 

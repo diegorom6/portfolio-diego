@@ -5,23 +5,31 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 import p1 from "../assests/p1.jpg";
 import p2 from "../assests/p2.jpg";
+import p3 from "../assests/p3.jpg";
 
 const Portfolio = () => {
     const projects = [
         {
             id: 1,
             image: p1,
-            title: "Portafolio",
-            github: "https://github.com/diegorom6/portfolio-diego",
-            demo: "https://github.com/",
+            title: "Blog",
+            github: "https://github.com/diegorom6/mern-blog",
+            demo: "https://github.com/diegorom6/mern-blog",
         },
         {
             id: 2,
             image: p2,
-            title: "Blog",
-            github: "https://github.com/diegorom6/mern-blog",
-            demo: "https://github.com/diegorom6/mern-blog",
+            title: "Portafolio Personal",
+            github: "https://github.com/diegorom6/portfolio-diego",
+            demo: "https://github.com/diegorom6/portfolio-diego",
+        },
+        {
+            id: 3,
+            image: p3,
+            title: "Estudio Fotográfico",
+            demo: "https://fucoestudio.com",
         }
+
     ];
 
     return (
