@@ -42,7 +42,7 @@ function Hero() {
                 ))}
             </div>
 
-            <div className="w-1/12 flex justify-center">
+            <div className="w-40 flex justify-center">
                 <a
                     href="./publicCV.pdf"
                     download={true}
